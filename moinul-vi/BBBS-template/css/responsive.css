@@ -1,0 +1,440 @@
+@media only screen and (min-width: 1366px) and (max-width: 1920px){
+    .container{
+        width: 1170px;
+    }
+}
+@media only screen and (min-width: 1201px) and (max-width: 1440px){}
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .menu-bottom ul a{
+        margin-left: 14px;
+    }
+    .banner .banner-content h1{
+        font-size: 35px;
+    }
+    .who-we-are .who-we-are-info h1{
+        font-size: 28px;
+    }
+    .menu-bottom ul a{
+        padding: 25px 0;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .banner{
+        height: auto;
+    }
+    .banner .banner-content{
+        padding: 30px 0 30px 30px;
+    }
+    .banner .banner-content h3{
+        font-size: 20px;
+    }
+    .banner .banner-content>span{
+        margin-top: 12px;
+    }
+    .banner .banner-content h1{
+        font-size: 30px;
+        margin: 16px 0;
+    }
+    .banner .banner-content a{
+        margin-top: 14px;
+        padding: 6px 22px;
+        font-size: 13px;
+    }
+    .menu{
+        padding: 10px 0;
+    }
+    .menu-bottom ul a{
+        padding: 15px 0;
+    }
+    .who-we-are .who-we-are-info{
+        margin-top: 30px;
+    }
+    .exc-card-content{
+        padding: 20px 15px;
+    }
+    .exc-card-content p{
+        font-size: 15px;
+        margin-bottom: 12px;
+    }
+    .cta-card .card-content{
+        padding: 10px 12px;
+        height: 91px; 
+    }
+    .cta-card .card-content h2{
+        font-size: 17px;
+    }
+    .cta-card .card-content .date{
+        margin-bottom: 10px;
+    }
+    .confe-area .confe-img{
+        margin-top: 30px;
+    }
+    .news-card .card-img .news-date{
+        width: 50px;
+        height: 55px;
+        padding: 10px;
+    }
+    .news-card .card-img .news-date p{
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .news-card .card-info{
+        padding: 20px;
+    }
+    .news-card .card-info p{
+        font-size: 11px;
+        height: 47px;
+    }
+    .single-product .product-img img{
+        width: 100%;
+    }
+    .single-product .product-content{
+        padding: 5px 8px;
+    }
+    .single-product .product-content .tags span{
+        font-size: 13px;
+        margin: 0;
+    }
+    .cta-card .card-img{
+        height: 133px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    .banner{
+        height: auto;
+    }
+    .banner .banner-content{
+        padding: 30px 0 30px 30px;
+    }
+    .banner .banner-content h3{
+        font-size: 20px;
+    }
+    .banner .banner-content>span{
+        margin-top: 12px;
+    }
+    .banner .banner-content h1{
+        font-size: 30px;
+        margin: 16px 0;
+    }
+    .banner .banner-content a{
+        margin-top: 14px;
+        padding: 6px 22px;
+        font-size: 13px;
+    }
+    .menu{
+        padding: 15px 0;
+    }
+    .menu-bottom ul{
+        padding: 0;
+    }
+    .menu-bottom ul a{
+        margin-right: 12px;
+        letter-spacing: 0;
+        font-size: 13px;
+        padding: 21px 0;
+    }
+    .who-we-are .who-we-are-info{
+        margin-top: 30px;
+    }
+    .exc-card-content{
+        padding: 10px 10px;
+    }
+    .exc-card-content p{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .cta-card .card-content{
+        padding: 10px 10px;
+        height: 91px;
+    }
+    .cta-card .card-content h2{
+        font-size: 13px;
+    }
+    .cta-card .card-content .date{
+        margin-bottom: 6px;
+    }
+    .exc-card-content span{
+        font-size: 13px;
+    }
+    .exc-card-content span span.material-icons{
+        font-size: 20px;
+        margin-left: 7px;
+    }
+    .confe-area .confe-img{
+        margin-top: 30px;
+    }
+    .news-card{
+        margin-top: 20px;
+    }
+    .product-area .single-product{
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+    .copyright p{
+        text-align: center;
+    }
+    .cta-card .card-img{
+        height: 98px;
+    }
+}
+@media only screen and (max-width: 768px){}
+@media only screen and (min-width: 480px) and (max-width: 576px){
+    .banner{
+        height: auto;
+    }
+    .banner .banner-content{
+        padding: 20px 0 20px 20px;
+    }
+    .banner .banner-content h3{
+        font-size: 16px;
+    }
+    .banner .banner-content>span{
+        margin-top: 12px;
+    }
+    .banner .banner-content h1{
+        font-size: 25px;
+        margin: 12px 0;
+    }
+    .banner .banner-content a{
+        margin-top: 9px;
+        padding: 4px 16px;
+        font-size: 13px;
+    }
+    .menu-bottom ul li ul.sub-menu{
+        position: inherit;
+        background: #62bb87;
+        width: auto;
+        margin-left: 25px;
+        top: 0;
+    }
+    .menu-bottom ul li ul.sub-menu li a{
+        color: #fff;
+        border: 0;
+        padding: 10px 17px;
+        border-bottom: 1px solid #c2c2c2;
+    }
+    .menu-bottom ul li ul.sub-menu li{
+        margin: 0;
+    }
+    .menu-bottom span.material-icons{
+        display: block;
+    }
+    .menu-bottom ul{
+        display: none;
+    }
+    .menu-bottom ul li{
+        margin: 10px 0;
+    }
+    .menu-bottom ul a{
+        padding: 3px 0;
+    }
+    header{
+        padding: 35px 0;
+    }
+    .who-we-are .who-we-are-info{
+        margin-top: 30px;
+    }
+    .exc-card-content{
+        padding: 22px 23px;
+    }
+    .exc-card-content p{
+        font-size: 19px;
+        margin-bottom: 40px;
+    }
+    .cta-card .card-content{
+        padding: 15px 15px;
+        height: 91px;
+    }
+    .cta-card .card-content h2{
+        font-size: 18px;
+    }
+    .cta-card .card-content .date{
+        margin-bottom: 6px;
+    }
+    .exc-card-content span{
+        font-size: 20px;
+    }
+    .exc-card-content span span.material-icons{
+        font-size: 35px;
+        margin-left: 7px;
+    }
+    .confe-area .confe-img{
+        margin-top: 30px;
+    }
+    .news-card{
+        margin-bottom: 15px;
+    }
+    .news-card .card-info{
+        padding: 20px;
+    }
+    .product-area .single-product{
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+    .sub-footer p{
+        margin-right: 5px;
+        font-size: 12px;
+    }
+    .copyright p{
+        text-align: center;
+    }
+    .footer-menu ul li a{
+        margin-right: 25px;
+    }
+    header .contact{
+        display: none;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 479px){
+    .banner{
+        height: auto;
+    }
+    .banner .banner-content{
+        padding: 10px 0 10px 10px;
+    }
+    .banner .banner-content h3{
+        font-size: 13px;
+    }
+    .banner .banner-content>span{
+        margin-top: 6px;
+    }
+    .banner .banner-content h1{
+        font-size: 16px;
+        margin: 5px 0;
+    }
+    .banner .banner-content a{
+        margin-top: 5px;
+        padding: 4px 16px;
+        font-size: 11px;
+    }
+    .menu-bottom ul li ul.sub-menu{
+        position: inherit;
+        background: #62bb87;
+        margin-left: 25px;
+        top: 0;
+    }
+    .menu-bottom ul li ul.sub-menu li{
+        margin: 0;
+    }
+    .menu-bottom ul li ul.sub-menu li a{
+        color: #fff;
+        border: 0;
+        padding: 10px 17px;
+        border-bottom: 1px solid #c2c2c2;
+    }
+    .menu-bottom span.material-icons{
+        display: block;
+    }
+    .menu-bottom ul{
+        display: none;
+    }
+    .menu-bottom ul li{
+        margin: 10px 0;
+    }
+    .menu-bottom ul a{
+        padding: 3px 0;
+    }
+    header{
+        padding: 35px 0;
+    }
+    .who-we-are .who-we-are-info{
+        margin-top: 30px;
+    }
+    .who-we-are .who-we-are-info h1{
+        font-size: 20px;
+    }
+    .who-we-are .who-we-are-info p{
+        font-size: 12px;
+    }
+    .exc-card-content{
+        padding: 22px 23px;
+    }
+    .exc-card-content p{
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    .cta-card .card-content{
+        padding: 15px 14px;
+        height: 75px;
+    }
+    .cta-card .card-content h2{
+        font-size: 15px;
+    }
+    .cta-card .card-content .date{
+        margin-bottom: 6px;
+    }
+    .exc-card-content span{
+        font-size: 13px;
+    }
+    .exc-card-content span span.material-icons{
+        font-size: 20px;
+        margin-left: 7px;
+    }
+    .confe-area .confe-img{
+        margin-top: 30px;
+    }
+    .news-card{
+        margin-bottom: 15px;
+    }
+    .news-card .card-info{
+        padding: 10px;
+    }
+    .product-area .single-product{
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+    .sub-footer p{
+        margin-right: 5px;
+        font-size: 12px;
+    }
+    .copyright p{
+        text-align: center;
+    }
+    .sub-footer{
+        display: block;
+    }
+    .footer-menu ul li a{
+        margin-right: 8px;
+        font-size: 13px;
+    }
+    .news-card .card-img .news-date{
+        height: 45px;
+        width: 45px;
+        padding: 11px;
+    }
+    .news-card .card-img .news-date p{
+        font-size: 12px;
+        line-height: 10px;
+    }
+    .news-card .card-info h1{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .news-card .card-info p{
+        font-size: 11px;
+    }
+    header .contact{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 414px){
+    .cta-card .card-img{
+        height: 108px;
+    }
+    .banner .banner-content h1{
+        font-size: 20px;
+        margin: 12px 0;
+    }
+}
+@media only screen and (min-width: 361px) and (max-width: 400px){
+    .cta-card .card-img{
+        height: 100px;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 360px){
+    .cta-card .card-img{
+        height: 90px;
+    }
+}
+

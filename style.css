@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.roboto-slab{
+    font-family: 'Roboto Slab', serif;
+}
+.open-sans{
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header .menu ul li .active{
+    border-bottom: 2px solid #FEC00A;
+}
+
+.btn-green{
+    background: #1FB15C;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 10px 34px;
+}
+
+
+
+.heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.heading p {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: #27AE60;
+}
+
+.heading h1{
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    
+}
+/* header area */
+
+header{
+    background-color: #1FB15C;
+    padding: 5px 0;
+}
+header .logo img{
+    width: 100%;
+}
+header .contact{
+    float: right;
+    padding: 4px 0;
+}
+header .contact p{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* menu */
+.menu{
+    border-bottom: 2px solid #FEC00A;
+    background:  #1E8E40;
+  
+}
+.menu ul li a {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+/* banner moin vi code */
+
+
+
+/*banner my code*/
+
+.banner .banner-content {
+    background: linear-gradient(88deg, #0000008a, transparent);
+    padding: 30px 0 30px 30px;
+    color: #fff;
+}
+
+.banner .banner-content>span{
+    height: 2px;
+    width: 80px;
+    background: #fff;
+    display: block;
+    margin-top: 23px;
+}
+
+.banner .banner-content h3 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.banner .banner-content h1 {
+    font-size: 40px;
+    font-weight: 300;
+    margin: 23px 0;
+}
+
+.banner .banner-content h1>span {
+    font-weight: 600;
+}
+
+.banner .banner-content a {
+    margin-top: 23px;
+}
+
+.banner {
+/*    padding: 75px 0;*/
+    height: 569px;
+}
+
+.banner .carousel{
+    height: 100%;
+}
+
+/* .banner .carousel .carousel-inner{
+    height: 100%;
+} */
+
+.banner .carousel .carousel-inner .carousel-item{
+    height: 100%;
+}
+
+.banner .carousel .carousel-inner .carousel-item .carousel-caption{
+    text-align: left;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    padding: 0;
+    display: block!important;
+}
+
+
+.carousel-indicators button {
+    height: 10px;
+    width: 10px;
+    border: 0;
+    margin: 10px;
+    background: #1FB15C;
+    border-radius: 50%;
+}
+
+/* who we are */
+
+.who-we-are{
+    margin-top: 80px;
+}
+
+.who-we-are-img{
+    position: relative;
+}
+
+.who-we-are-img img{
+    width: 100%;
+}
+.who-we-are-img .overlay{
+    background: linear-gradient(359deg, #26ac5ed1, transparent);
+  display: block;
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.who-we-are .who-we-are-info {
+    margin-left: 27px;
+}
+
+.who-we-are .who-we-are-info h1 {
+    font-size: 31px;
+    font-weight: 600;
+}
+
+.who-we-are .who-we-are-info p {
+    font-size: 16px;
+    color: #666666;
+    margin: 20px 0;
+} 
