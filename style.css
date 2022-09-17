@@ -1,25 +1,26 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.roboto-slab{
+.roboto-slab {
     font-family: 'Roboto Slab', serif;
 }
-.open-sans{
+
+.open-sans {
     font-family: 'Open Sans', sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-header .menu ul li .active{
+header .menu ul li .active {
     border-bottom: 2px solid #FEC00A;
 }
 
-.btn-green{
+.btn-green {
     background: #1FB15C;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
@@ -44,26 +45,30 @@ header .menu ul li .active{
     color: #27AE60;
 }
 
-.heading h1{
+.heading h1 {
     font-size: 30px;
     font-family: 'Roboto Slab', serif;
     font-weight: 600;
-    
+
 }
+
 /* header area */
 
-header{
+header {
     background-color: #1FB15C;
     padding: 5px 0;
 }
-header .logo img{
+
+header .logo img {
     width: 100%;
 }
-header .contact{
+
+header .contact {
     float: right;
     padding: 4px 0;
 }
-header .contact p{
+
+header .contact p {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
@@ -73,17 +78,19 @@ header .contact p{
 }
 
 /* menu */
-.menu{
+.menu {
     border-bottom: 2px solid #FEC00A;
-    background:  #1E8E40;
-  
+    background: #1E8E40;
+
 }
+
 .menu ul li a {
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 2px;
     font-weight: 500;
 }
+
 /* banner moin vi code */
 
 
@@ -96,7 +103,7 @@ header .contact p{
     color: #fff;
 }
 
-.banner .banner-content>span{
+.banner .banner-content>span {
     height: 2px;
     width: 80px;
     background: #fff;
@@ -124,11 +131,11 @@ header .contact p{
 }
 
 .banner {
-/*    padding: 75px 0;*/
+    /*    padding: 75px 0;*/
     height: 569px;
 }
 
-.banner .carousel{
+.banner .carousel {
     height: 100%;
 }
 
@@ -136,18 +143,18 @@ header .contact p{
     height: 100%;
 } */
 
-.banner .carousel .carousel-inner .carousel-item{
+.banner .carousel .carousel-inner .carousel-item {
     height: 100%;
 }
 
-.banner .carousel .carousel-inner .carousel-item .carousel-caption{
+.banner .carousel .carousel-inner .carousel-item .carousel-caption {
     text-align: left;
     top: 0;
     left: 0;
     right: 0;
     height: 100%;
     padding: 0;
-    display: block!important;
+    display: block !important;
 }
 
 
@@ -162,25 +169,26 @@ header .contact p{
 
 /* who we are */
 
-.who-we-are{
+.who-we-are {
     margin: 80px;
 }
 
-.who-we-are-img{
+.who-we-are-img {
     position: relative;
 }
 
-.who-we-are-img img{
+.who-we-are-img img {
     width: 100%;
 }
-.who-we-are-img .overlay{
+
+.who-we-are-img .overlay {
     background: linear-gradient(359deg, #26ac5ed1, transparent);
-  display: block;
-  left: 0;
-  top: 0;
-  position: absolute;
-  width: 100%;
-  height: 100%;
+    display: block;
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 .who-we-are .who-we-are-info {
@@ -196,26 +204,30 @@ header .contact p{
     font-size: 16px;
     color: #666666;
     margin: 20px 0;
-} 
-/* news-feed area */
-
-.news-feed{
-    background: #F6F6F6;
 }
 
-.news-feed .first-card{
+/* news-feed area */
+
+.news-feed {
+    background: #F6F6F6;
+    padding: 40px 0;
+}
+
+.news-feed .first-card {
     position: relative;
     margin-top: 20px;
 }
-.news-feed .first-card>img{
-   width: 100%;
+
+.news-feed .first-card>img {
+    width: 100%;
 }
-.first-card-body{
+
+.first-card-body {
     position: absolute;
     top: 0;
     left: 0;
     display: block;
-    color:#F6F6F6;
+    color: #F6F6F6;
     width: 100%;
     height: 100%;
     background: #27ae60bf;
@@ -223,39 +235,46 @@ header .contact p{
     padding: 60px 30px;
 
 }
-.first-card-body p{
+
+.first-card-body p {
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 65px;
     font-family: 'Open Sans', sans-serif;
 
 }
-.first-card-body span{
+
+.first-card-body span {
     font-size: 16px;
     display: flex;
 
 
 }
-.card{
+
+.card {
     border: 1px solid #D8D8D8;
     margin-top: 20px;
 
 }
-.card-img{
+
+.card-img {
     overflow: hidden;
     width: auto;
     height: 157px;
 }
-.card .card-img img{
+
+.card .card-img img {
     width: 100%;
 }
-.card .card-body{
+
+.card .card-body {
     padding: 18px 25px;
     height: 122px;
     overflow: hidden;
 
 }
-.card .card-body .date{
+
+.card .card-body .date {
     font-size: 10px;
     margin-bottom: 21px;
     display: block;
@@ -263,13 +282,210 @@ header .contact p{
     color: #666666;
 
 }
-.card .card-body h2{
+
+.card .card-body h2 {
     font-size: 16px;
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
     color: #242C42;
     height: 42px;
     overflow: hidden;
+}
 
+/* conference area */
 
+.conference-info h1 {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.conference-info>span {
+    height: 1px;
+    width: 230px;
+    display: block;
+    background: #27AE60;
+}
+
+.conference-info p {
+    font-size: 14px;
+    color: #666666;
+    margin: 30px 0;
+    line-height: 25px;
+}
+
+.conference {
+    margin: 80px;
+}
+
+.conference .conference-img {
+    position: relative;
+}
+
+.conference-img img {
+    width: 100%;
+}
+
+.conference-img .overlay {
+    background: linear-gradient(359deg, #26ac5ed1, transparent);
+    width: 100%;
+    height: 100%;
+    display: block;
+    left: 0;
+    top: 0;
+    position: absolute;
+
+}
+
+/* letest events */
+
+.latest-events{
+    background: #F6F6F6;
+    padding: 80px ;
+}
+.news-card{
+    border: 1px solid #70707059
+}
+.news-card .news-img{
+    position: relative;
+}
+.news-card .news-img img{
+    width: 100%;
+}
+.news-card .news-card-info{
+    padding: 30px;
+}
+.news-card .news-card-info h1{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    FONT-WEIGHT: 700;
+    color: #242C42;
+    line-height: 24px;
+    height: 48px;
+    overflow: hidden;
+}
+.news-card .news-card-info p{
+    font-size: 14px;
+    color: #666666;
+    font-family: 'Open Sans', sans-serif;
+    height: 63px;
+    overflow: hidden;
+}
+.news-card .news-card-info a{
+    color: #1FB15C;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+}
+.news-card .news-img .news-date{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #FEC00A;
+    width: 62px;
+    height: 70px;
+    padding: 15px;
+    border-bottom-right-radius: 23px;
+}
+.news-card .news-img .news-date p{
+    margin: 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 17px;
+}
+
+/* our products */
+.our-products{
+    padding: 80px 0;
+}
+.our-products .single-product{
+    display: flex;
+    justify-content: space-between;
+}
+.single-product .product-content {
+    padding: 17px 16px;
+    word-break: break-word;
+}
+.single-product .product-content h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.single-product .product-content h1 span {
+    font-size: 15px;
+    color: #86BC42;
+}
+.single-product .product-content a {
+    font-family: 'Open Sans', sans-serif;
+    color: #1FB15C;
+    font-size: 14px;
+    font-weight: 600;
+}
+.single-product .product-content .tags span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    margin-right: 6px;
+}
+
+/* gallery */
+.gallery{
+    padding: 80px 0;
+}
+.gallery img{
+    width: 100%;
+    margin-top: 21px;
+}
+
+/* <!-- executive committee --> */
+
+.slider{
+    background: #F6F6F6;
+    padding: 80px 0;
+}
+.single-slider {
+    background: #fff;
+    height: 180px;
+}
+.single-slider .slider-img {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+.single-slider .slider-img img {
+    height: 90px;
+    width: 90px!important;
+    border-radius: 50%;
+    border: 5px solid #E9E9E9;
+    position: absolute;
+    top: -25px;
+}
+.single-slider .slider-content {
+    padding: 80px 50px;
+    text-align: center;
+}
+.single-slider .slider-content h1 {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.single-slider .slider-content p {
+    color: #27AE60;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.slider .dr-slider {
+   
+    margin-top: 40px;
+    background: #1FB15C;
 }
