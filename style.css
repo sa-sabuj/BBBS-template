@@ -489,3 +489,118 @@ header .contact p {
     margin-top: 40px;
     background: #1FB15C;
 }
+
+/* footer area */
+
+footer {
+    background: #272727;
+    padding-top: 80px;
+}
+.single-col{
+    margin-right: 25px;
+}
+.mini-head p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.mini-head p::after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 90px;
+    background: #27AE60;
+    bottom: -18px;
+    left: 0;
+}
+img.footer-logo {
+    width: 100%;
+    margin: 30px 0;
+}
+.single-col>p {
+    font-size: 14px;
+    font-family: 'Open Sans';
+    color: #999999;
+}
+.menus {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+}
+.menus ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menus ul li a {
+    font-size: 14px;
+    color: #999999;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+form {
+    margin-top: 46px;
+}
+form input.form-control {
+    height: 46px;
+    background: #3C3C3C;
+    border: 0;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.sub-footer {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+.sub-footer p {
+    color: #999999;
+    font-size: 14px;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 10px;
+}
+.sub-footer p span {
+    color: #27AE60;
+    margin-right: 5px;
+}
+
+.footer-bottom {
+    background: #111111;
+    padding: 20px 0;
+}
+.coppyright p {
+    font-family: 'Open Sans', sans-serif;
+    color: #999999;
+    font-size: 14px;
+    margin: 0;
+}
+.footer-menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+.footer-menu ul li a {
+    color: #999999;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
